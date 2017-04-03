@@ -1,0 +1,67 @@
+.tweets {
+    width: 100%;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    position: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tweetboxes {
+    display: inline-block;
+    background-color: white;
+    border-radius: 2%;
+    padding: 40px;
+    margin: 50px 30px 50px 30px;
+    font-family: roboto;
+    font-size: 1.5em;
+    color: #8E8E8E;
+    position: relative;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 3px 3px 50px -1px rgba(82,76,82,1);
+    -moz-box-shadow: 3px 3px 50px -1px rgba(82,76,82,1);
+    box-shadow: 3px 3px 50px -1px rgba(82,76,82,1);
+}
+
+.profilepic {
+    position: absolute;
+    left: 43%;
+    top: -40px;
+    margin: 0px;
+    padding: 0px; 
+    width: 75px;
+    height: 75px;
+}
+
+.tweetboxes img {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    -webkit-box-shadow: 3px 3px 50px -1px rgba(82,76,82,1);
+    -moz-box-shadow: 3px 3px 50px -1px rgba(82,76,82,1);
+    box-shadow: 3px 3px 50px -1px rgba(82,76,82,1);
+}
+
+.signature {
+    font-size: 0.75em;
+    width: 100%;
+    box-sizing: border-box;
+
+    p {
+        display: inline-block;
+        width: 48%;
+        margin: 0px;
+    }
+}
+
+.handle {
+    widows: 75%;
+}
+.date {
+    widows: 25%;
+    text-align: right;
+}

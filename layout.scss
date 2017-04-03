@@ -1,0 +1,13 @@
+body {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        background: #8D35A5;
+        background: -webkit-linear-gradient(left, #6363C6, #8D35A5);
+        background: -moz-linear-gradient(left, #6363C6, #8D35A5);
+        background: -o-linear-gradient(left, #6363C6, #8D35A5); 
+        background: linear-gradient(to right, #6363C6, #8D35A5); 
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+}
