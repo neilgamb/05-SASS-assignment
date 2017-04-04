@@ -11,3 +11,66 @@ body {
         display: flex;
         flex-direction: column;
 }
+
+@media (min-width: $small) {
+    .tweets {
+        height: 5000px;
+    }
+    
+    .tweets ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        display: inline-block;
+    }
+
+    .tweetboxes {
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: $med) {
+        body {
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            header {
+            width: 30%;
+
+                h2 {
+                    font-size: 2.2em;
+                    padding: 20px;
+                }
+            }
+
+
+            main {
+            width: 70%;
+            }   
+
+            footer {
+            width: 30%;
+            position: absolute;
+            bottom: 0px;
+            display: block;
+
+            p {
+                bottom: 0px;
+                position: fixed;
+                width: 30%;
+                padding: 5px;
+                text-align: left;
+                font-size: .8em;
+            }
+        }
+
+        }
+}
+
+
