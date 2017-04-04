@@ -34,12 +34,18 @@ body {
     flex-direction: row;
     flex-wrap: nowrap; }
     body header {
-      width: 30%; }
+      width: 30%;
+      height: 100vh;
+      float: left;
+      position: fixed; }
       body header h2 {
         font-size: 2.2em;
         padding: 20px; }
     body main {
-      width: 70%; }
+      width: 70%;
+      height: 100%;
+      float: right;
+      margin-left: 500px; }
     body footer {
       width: 30%;
       position: absolute;
